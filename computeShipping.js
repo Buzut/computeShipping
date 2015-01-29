@@ -1,3 +1,9 @@
+/**
+ * Compute price from weight and destination zone
+ * @param {number} weight Total weight in gram
+ * @param {number} region Postal region based on La Poste regions
+ * @return {number} shipping price in Euros
+ **/
 function computeShipping(weight, region) {
   var shipping;
   if (region == 0) {
